@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GamesysAssesment.Console", "GamesysAssesment.Console\GamesysAssesment.Console.fsproj", "{6936257C-C61F-46B1-944E-FC5B063837BB}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GamesysAssesment.Logic", "GamesysAssesment.Logic\GamesysAssesment.Logic.fsproj", "{6DC5F139-DD3A-4276-AA22-B6E1B71A9939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesysAssesment.Logic.Tests", "GamesysAssesment.Logic.Tests\GamesysAssesment.Logic.Tests.csproj", "{9E6DDEF5-E9F5-4146-BFEE-2B333E8E895C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6936257C-C61F-46B1-944E-FC5B063837BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6936257C-C61F-46B1-944E-FC5B063837BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6936257C-C61F-46B1-944E-FC5B063837BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC5F139-DD3A-4276-AA22-B6E1B71A9939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC5F139-DD3A-4276-AA22-B6E1B71A9939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC5F139-DD3A-4276-AA22-B6E1B71A9939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC5F139-DD3A-4276-AA22-B6E1B71A9939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6DDEF5-E9F5-4146-BFEE-2B333E8E895C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6DDEF5-E9F5-4146-BFEE-2B333E8E895C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6DDEF5-E9F5-4146-BFEE-2B333E8E895C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6DDEF5-E9F5-4146-BFEE-2B333E8E895C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
